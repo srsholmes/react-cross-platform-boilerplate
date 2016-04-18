@@ -16,7 +16,7 @@ The Boilerplate acts as a way for you to share code between a React web applicat
 4. Run `react-native run-android` for a first time set up which will compile the app android simulator.
 
 ### Watch and rebuild for react-native
-1. After you have run the above tasks you can run `npm native-start` to build the app for iOS and Android and watch/recompile the files on save. You will be able to access the project in the relevant simulator / device. 
+1. After you have run the above tasks you can run `npm run native-start` to build the app for iOS and Android and watch/recompile the files on save. You will be able to access the project in the relevant simulator / device. 
 
 ### Screenshots
 
