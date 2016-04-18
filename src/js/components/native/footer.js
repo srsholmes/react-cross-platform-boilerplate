@@ -1,6 +1,6 @@
 import React, { Component, StyleSheet, Text, View, Platform }  from 'react-native';
 import FOOTER  from '../shared/footer';
-var mixin = require('mixin');
+import mixin from 'mixin'
 
 export default class Footer extends mixin(FOOTER, React.Component) {
 
