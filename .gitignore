@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+.DS_Store
+.idea
+.idea/
+ApplicationWeb/js/*
+ApplicationWeb/css/*
+ApplicationNative/ApplicationNative/app
