@@ -25,6 +25,7 @@ export default class ApplicationNative extends Component {
 		return (
 			<View style={styles.container}>
 				{this.renderPlatformSpecific()}
+				<Text>Hot module enabled, try it out!</Text>
 				<Text onPress={changeHeading} style={styles.welcome}>{heading}</Text>
 				<Text onPress={incrementCounter} style={styles.welcome}>+</Text>
 				<Text style={styles.counter}>{counter}</Text>

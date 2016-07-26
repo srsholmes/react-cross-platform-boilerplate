@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica', cursive;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-color: white; }
+
+input[type="checkbox"] {
+  margin: 10px 0;
+  height: 40px;
+  display: block;
+  margin: auto; }
+
+.my-custom-view {
+  background: red;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin: auto; }
+  .my-custom-view.true {
+    background: green; }
+
+[app] {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  max-width: 1000px;
+  overflow: hidden; }
+  @media (max-width: 640px) {
+    [app] {
+      max-width: 100%;
+      width: 100%;
+      height: auto; } }

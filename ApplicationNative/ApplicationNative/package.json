@@ -5,9 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
- "dependencies": {
-    "babel-polyfill": "^6.5.0",
-    "bluebird": "^2.9.30",
+  "dependencies": {
+    "babel-polyfill": "^6.9.0",
     "mixin": "^0.2.0",
     "react": "^0.14.8",
     "react-native": "^0.23.1",
