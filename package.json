@@ -18,7 +18,7 @@
     "browser:sync": "browser-sync start --server 'ApplicationWeb' --files 'ApplicationWeb/css/*.css'",
     "build:css": "node-sass app/scss/ -o ApplicationWeb/css",
     "build:js": "NODE_ENV=production node ./node_tasks/build.js",
-    "uglify:js": "uglifyjs  public/js/app.js --output public/js/app.min.js",
+    "uglify:js": "uglifyjs  ApplicationWeb/js/app.js --output ApplicationWeb/js/app.min.js",
     "watch:css": "watch 'npm run build:css' app/scss",
     "watch:js": "NODE_ENV=development node ./node_tasks/watch.js",
     "postCSS": "postcss -u autoprefixer cssnano -r ApplicationWeb/css/*"
