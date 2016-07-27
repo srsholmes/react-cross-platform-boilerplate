@@ -1,1 +1,1 @@
-var app = require('./web');
+var app = require('./native');
