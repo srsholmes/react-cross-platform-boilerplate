@@ -1,4 +1,4 @@
-# react-hybrid-starter
+# react-cross-platform-boilerplate
 
 The Boilerplate acts as a way for you to share code between a React web application and a React Native application, using redux for state management. Testing framework has been ommitted as everyone has a personal preference (mine is [Tape](https://github.com/substack/tape)).
 
