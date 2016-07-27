@@ -1,6 +1,6 @@
 {
   "name": "react-native-hybrid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A React Boilerplate to share code between Web, iOS and Android applications",
   "main": "gulpfile.js",
   "scripts": {
