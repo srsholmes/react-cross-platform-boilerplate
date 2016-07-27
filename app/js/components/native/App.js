@@ -15,8 +15,7 @@ import Footer from './footer';
 export default class ApplicationNative extends Component {
 
   renderPlatformSpecific() {
-    const { OS } = Platform;
-    return OS === 'ios' ? (<Text>iOS Specific Component</Text>) : (<Text>Android Specific Component</Text>)
+    return (<Text>{`${Platform.OS}`} Specific Component</Text>)
   }
 
 	render() {

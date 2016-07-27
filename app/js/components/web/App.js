@@ -20,6 +20,7 @@ export default class App extends Component {
     return (
       <div>
         <h1 onClick={changeHeading}>{heading}</h1>
+        <h2>Hot module enabled, try it out!</h2>
         <button onClick={incrementCounter}>+</button>
         <h2>{counter}</h2>
         <button onClick={decrementCounter}>-</button>
