@@ -5,19 +5,19 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
+  "devDependencies": {
+    "react-native-cli": "^0.2.0",
+    "babel-preset-react-native-stage-0": "^1.0.1"
+  },
   "dependencies": {
     "babel-polyfill": "^6.9.0",
     "mixin": "^0.2.0",
-    "react": "^0.14.8",
-    "react-native": "^0.23.1",
+    "react": "15.2.1",
+    "react-native": "^0.30.0",
     "react-redux": "^4.0.0",
     "react-router": "2.0.0",
     "react-router-redux": "^4.0.0",
     "redux": "^3.0.4",
     "redux-logger": "^2.0.4"
-  },
-  "devDependencies": {
-    "react-native-cli": "^0.2.0",
-    "babel-preset-react-native-stage-0": "^1.0.1"
   }
 }

@@ -1,4 +1,5 @@
-import React, { Component, AppRegistry } from 'react-native';
+import React, {Component}  from 'react';
+import {AppRegistry, StyleSheet, Text, View, Platform}  from 'react-native';
 import { Provider } from 'react-redux';
 import configureStore from '../../store/configureStore';
 const store = configureStore();
@@ -14,5 +15,5 @@ export default class App extends Component {
   }
 };
 
-AppRegistry.registerComponent('ApplicationNative', () => App);
+AppRegistry.registerComponent('Playground', () => App);
 
